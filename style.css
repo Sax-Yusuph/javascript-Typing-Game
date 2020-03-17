@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Dosis|Fredoka+One|Gelasio|Kulim+Park|Lato|Poiret+One|Roboto|Roboto+Condensed|Varela+Round&display=swap');
+
+
+
+*{
+    box-sizing: border-box ;
+}
+
+body {
+    background : #065153;
+    /* color: #FFF; */
+    margin-top:80px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.data p span{
+    font-weight:bold;
+    background-color:#4CAF50;
+    padding:8px;
+    border-radius:4px;
+    color:white;
+}
+
+
+.rule{
+    border:1px solid rgb(0, 124, 87);
+}
+.clear{
+    clear:both;
+}
+
+#currentWord{
+    font-size: 60px;
+    color: #065153;
+}
+
+
+.data{
+    font-size:18px;
+    margin-top:2px;
+}
+
+#finalScore{
+    height: 100%;
+    width : 100%;
+    position: absolute;
+    z-index: 1;
+    top: 15;
+    right: 0;
+    bottom: 0;
+    left: 30;
+    transition: 0.5s;
+    background-color:#03424477;
+    visibility: hidden;
+    transition: visibility 0.6s ease;
+}
+#finalScore p{
+    position: relative;
+    display: block;
+    max-width: 300px;
+    top:50%;
+    left:30%;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#finalScore h4{
+    position: relative;
+    display: block;
+    top:40%;
+    left:0;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+}
